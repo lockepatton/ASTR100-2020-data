@@ -1,0 +1,18 @@
+
+Aug 11 23:28: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+          Bias_001.fits
+          Bias_002.fits
+          Bias_003.fits
+          Bias_004.fits
+          Bias_005.fits
+          Bias_006.fits
+          Bias_007.fits
+          Bias_008.fits
+          Bias_009.fits
+          Bias_010.fits
+
+  Output image = zero, ncombine = 10

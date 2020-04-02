@@ -1,0 +1,55 @@
+
+Aug 15 22:04: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160715Flatg_001.fits    1.0  43837.  1.192
+  20160715Flatg_002.fits    1.5  58458.  0.894
+  20160715Flatg_003.fits    1.5  55115.  0.948
+  20160715Flatg_004.fits    1.5  52680.  0.992
+  20160715Flatg_005.fits    1.5  50199.  1.041
+  20160715Flatg_006.fits    1.5  47935.  1.090
+  20160715Flatg_007.fits    2.0  57110.  0.915
+  20160715Flatg_008.fits    2.0  53825.  0.971
+  20160715Flatg_009.fits    2.0  51202.  1.021
+
+  Output image = flatg, ncombine = 9
+
+Aug 15 22:04: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160715Flati_001.fits    4.5  43834.  1.072
+  20160715Flati_002.fits    5.5  50044.  0.939
+  20160715Flati_003.fits    5.5  47373.  0.992
+  20160715Flati_004.fits    6.0  48686.  0.965
+  20160715Flati_005.fits    6.0  45638.  1.030
+  20160715Flati_006.fits    6.5  46588.  1.009
+  20160715Flati_007.fits    7.0  46862.  1.003
+  20160715Flati_008.fits    7.5  47432.  0.991
+  20160715Flati_009.fits    8.0  47023.  1.000
+  20160715Flati_010.fits    8.5  46571.  1.009
+
+  Output image = flati, ncombine = 10
+
+Aug 15 22:04: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160715Flatr_001.fits    3.5  43209.  1.103
+  20160715Flatr_002.fits    4.0  46213.  1.031
+  20160715Flatr_003.fits    4.5  48369.  0.985
+  20160715Flatr_004.fits    5.0  49940.  0.954
+  20160715Flatr_005.fits    5.0  47479.  1.004
+  20160715Flatr_006.fits    5.5  49011.  0.972
+  20160715Flatr_007.fits    6.0  50022.  0.953
+  20160715Flatr_008.fits    6.0  47379.  1.006
+  20160715Flatr_009.fits    6.5  47305.  1.007
+
+  Output image = flatr, ncombine = 9

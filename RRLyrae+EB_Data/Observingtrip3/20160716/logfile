@@ -1,0 +1,625 @@
+
+Aug 11 23:17: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+          Bias_001.fits
+          Bias_002.fits
+          Bias_003.fits
+          Bias_004.fits
+          Bias_005.fits
+          Bias_006.fits
+          Bias_007.fits
+          Bias_008.fits
+          Bias_009.fits
+          Bias_010.fits
+
+  Output image = zero, ncombine = 10
+1EB1_001.fits: Aug 11 23:23 Zero level correction image is zero.fits
+
+Aug 11 23:24: IMCOMBINE
+  combine = average, scale = exposure, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images     Exp  Scale
+        Dark30_001.fits   30.0  1.875
+        Dark30_002.fits   30.0  1.875
+        Dark30_003.fits   30.0  1.875
+        Dark30_004.fits   30.0  1.875
+        Dark30_005.fits   30.0  1.875
+        Dark45_001.fits   45.0  1.250
+        Dark45_002.fits   45.0  1.250
+        Dark45_003.fits   45.0  1.250
+        Dark45_004.fits   45.0  1.250
+        Dark45_005.fits   45.0  1.250
+        Dark60_001.fits   60.0  0.937
+        Dark60_002.fits   60.0  0.937
+        Dark60_003.fits   60.0  0.937
+        Dark60_004.fits   60.0  0.937
+        Dark60_005.fits   60.0  0.937
+        Dark90_001.fits   90.0  0.625
+        Dark90_002.fits   90.0  0.625
+        Dark90_003.fits   90.0  0.625
+        Dark90_004.fits   90.0  0.625
+        Dark90_005.fits   90.0  0.625
+
+  Output image = dark, ncombine = 20
+1EB1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dark.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+1EB2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+1EB2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+1EB2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+1EB2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+1EB3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1EB3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1EB3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+1RR1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+1RR1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+1RR1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+1RR1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+1RR1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+1RR2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+1RR3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+1RR3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2EB1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+2EB2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+2EB2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+2EB2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+2EB2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+2EB3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2EB3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2EB3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+2RR1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+2RR1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+2RR1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+2RR1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+2RR1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+2RR2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+2RR3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+2RR3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+3EB1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+3EB2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+3EB2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+3EB2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+3EB2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+3EB3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3EB3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3EB3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3RR1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+3RR1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+3RR1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+3RR1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+3RR1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+3RR2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3RR2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3RR2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3RR2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3RR2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+3RR3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+3RR3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+3RR3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+3RR3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+3RR3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+3RR3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+4RR1_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR1_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR1_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR1_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR1_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR1_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR1_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR1_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR1_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR1_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR2_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR2_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR2_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR2_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR2_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR2_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR2_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR2_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR2_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR2_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+4RR3_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR3_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+4RR3_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR3_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+4RR3_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR3_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+4RR3_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR3_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+4RR3_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+4RR3_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+EB1test.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+EB1test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+EB1test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB1test4.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test4.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB1test5.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test5.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB1test6.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test6.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB1test7.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test7.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB1test8.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test8.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB1test9.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB1test9.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB2test1.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB2test1.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5333334
+EB2test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB2test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+EB2test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB2test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+EB2test4.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB2test4.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+EB3test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB3test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB3test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB3test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2666667
+EB3test4.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB3test4.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+EB3test5.fits: Aug 11 23:26 Zero level correction image is zero.fits
+EB3test5.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+Flatg_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_006.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_006.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_007.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_007.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+Flatg_008.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_008.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.02133333
+Flatg_009.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatg_009.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.02133333
+Flati_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04266667
+Flati_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04266667
+Flati_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04266667
+Flati_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04266667
+Flati_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04622222
+Flati_006.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_006.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04622222
+Flati_007.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_007.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04977778
+Flati_008.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_008.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04977778
+Flati_009.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flati_009.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04977778
+Flatr_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.03555556
+Flatr_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.03555556
+Flatr_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.03911111
+Flatr_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.03911111
+Flatr_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04266667
+Flatr_006.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_006.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04266667
+Flatr_007.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_007.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04622222
+Flatr_008.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_008.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04622222
+Flatr_009.fits: Aug 11 23:26 Zero level correction image is zero.fits
+Flatr_009.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.04622222
+RR1test1.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR1test1.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+RR1test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR1test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+RR1test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR1test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+RR2test.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=1.511111
+RR2test10.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test10.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR2test11.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test11.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2666667
+RR2test12.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test12.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+RR2test13.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test13.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+RR2test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR2test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR2test4.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test4.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.08888889
+RR2test5.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test5.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+RR2test6.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test6.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR2test7.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test7.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR2test8.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test8.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+RR2test9.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR2test9.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+RR3test.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=1.066667
+RR3test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR3test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.8
+RR3test4.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test4.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.3555556
+RR3test5.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test5.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.4444444
+RR3test6.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test6.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2666667
+RR3test7.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test7.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5688889
+RR3test8.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RR3test8.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.5688889
+RRtest1.fits: Aug 11 23:26 Zero level correction image is zero.fits
+RRtest1.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.2133333
+dfg_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfg_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01422222
+dfg_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfg_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01422222
+dfg_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfg_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01422222
+dfi_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfi_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=8.888889E-4
+dfi_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfi_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=8.888889E-4
+dfi_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfi_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=8.888889E-4
+dflin_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=3.555556E-4
+dflin_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=7.111111E-4
+dflin_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001066667
+dflin_004.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_004.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001422222
+dflin_005.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_005.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001777778
+dflin_006.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_006.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002133333
+dflin_007.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_007.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002488889
+dflin_008.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_008.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002844444
+dflin_009.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_009.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.0032
+dflin_010.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_010.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.003555556
+dflin_011.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_011.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.003911111
+dflin_012.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_012.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.004266667
+dflin_013.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_013.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.004622222
+dflin_014.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_014.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.004977778
+dflin_015.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_015.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.005333334
+dflin_016.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_016.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.005688889
+dflin_017.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_017.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.006044445
+dflin_018.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_018.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.0064
+dflin_019.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_019.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.006755556
+dflin_020.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_020.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.007111111
+dflin_021.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_021.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.008888889
+dflin_022.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_022.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01066667
+dflin_023.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_023.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01244444
+dflin_024.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_024.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01422222
+dflin_025.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_025.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.016
+dflin_026.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_026.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+dflin_027.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_027.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01955556
+dflin_028.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_028.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.02133333
+dflin_029.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_029.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.02311111
+dflin_030.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_030.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.02488889
+dflin_031.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_031.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.02666667
+dflin_032.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_032.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.03555556
+dflin_033.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dflin_033.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.05333333
+dfr_001.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfr_001.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002488889
+dfr_002.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfr_002.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002488889
+dfr_003.fits: Aug 11 23:26 Zero level correction image is zero.fits
+dfr_003.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002488889
+flattest.fits: Aug 11 23:26 Zero level correction image is zero.fits
+flattest.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.008888889
+flattest1.fits: Aug 11 23:26 Zero level correction image is zero.fits
+flattest1.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.008888889
+flattest2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+flattest2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.008888889
+focustest1.fits: Aug 11 23:26 Zero level correction image is zero.fits
+focustest1.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.08888889
+focustest2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+focustest2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.08888889
+focustest3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+focustest3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.08888889
+test1.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test1.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.1777778
+test10.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test10.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.002488889
+test11.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test11.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001777778
+test12.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test12.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001422222
+test13.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test13.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=8.888889E-4
+test2.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test2.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.08888889
+test3.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test3.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01777778
+test4.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test4.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.008888889
+test5.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test5.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.01422222
+test6.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test6.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.008888889
+test7.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test7.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.003555556
+test8.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test8.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.0032
+test9.fits: Aug 11 23:26 Zero level correction image is zero.fits
+test9.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001777778
+testvega.fits: Aug 11 23:26 Zero level correction image is zero.fits
+testvega.fits: Aug 11 23:26 Dark count correction image is dark.fits with scale=0.001777778
+1EB1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1EB3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+1RR3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2EB3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+2RR3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3EB3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+3RR3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR1_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR1_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR1_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR1_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR1_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR2_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR2_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR2_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR2_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR2_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR3_001.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR3_002.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR3_003.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR3_004.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74
+4RR3_005.fits: Aug 15 22:10 Flat field image is flatr.fits with scale=38871.74

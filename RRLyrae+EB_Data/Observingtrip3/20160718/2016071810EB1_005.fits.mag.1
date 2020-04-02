@@ -1,0 +1,620 @@
+#K IRAF       = NOAO/IRAFV2.16          version    %-23s     
+#K USER       = amielpatton-hall        name       %-23s     
+#K HOST       = D-69-91-163-20.dhcp4.wa computer   %-23s     
+#K DATE       = 2016-08-17              yyyy-mm-dd %-23s     
+#K TIME       = 20:24:49                hh:mm:ss   %-23s     
+#K PACKAGE    = apphot                  name       %-23s     
+#K TASK       = phot                    name       %-23s     
+#
+#K SCALE      = 1.                      units      %-23.7g   
+#K FWHMPSF    = 2.5                     scaleunit  %-23.7g   
+#K EMISSION   = yes                     switch     %-23b     
+#K DATAMIN    = 165.                    counts     %-23.7g   
+#K DATAMAX    = INDEF                   counts     %-23.7g   
+#K EXPOSURE   = ""                      keyword    %-23s     
+#K AIRMASS    = ""                      keyword    %-23s     
+#K FILTER     = ""                      keyword    %-23s     
+#K OBSTIME    = ""                      keyword    %-23s     
+#
+#K NOISE      = poisson                 model      %-23s     
+#K SIGMA      = 14.5                    counts     %-23.7g   
+#K GAIN       = ""                      keyword    %-23s     
+#K EPADU      = 1.1                     e-/adu     %-23.7g   
+#K CCDREAD    = ""                      keyword    %-23s     
+#K READNOISE  = 3.                      e-         %-23.7g   
+#
+#K CALGORITHM = none                    algorithm  %-23s     
+#K CBOXWIDTH  = 5.                      scaleunit  %-23.7g   
+#K CTHRESHOLD = 0.                      sigma      %-23.7g   
+#K MINSNRATIO = 1.                      number     %-23.7g   
+#K CMAXITER   = 10                      number     %-23d     
+#K MAXSHIFT   = 1.                      scaleunit  %-23.7g   
+#K CLEAN      = no                      switch     %-23b     
+#K RCLEAN     = 1.                      scaleunit  %-23.7g   
+#K RCLIP      = 2.                      scaleunit  %-23.7g   
+#K KCLEAN     = 3.                      sigma      %-23.7g   
+#
+#K SALGORITHM = mode                    algorithm  %-23s     
+#K ANNULUS    = 5.                      scaleunit  %-23.7g   
+#K DANNULUS   = 10.                     scaleunit  %-23.7g   
+#K SKYVALUE   = 0.                      counts     %-23.7g   
+#K KHIST      = 3.                      sigma      %-23.7g   
+#K BINSIZE    = 0.1                     sigma      %-23.7g   
+#K SMOOTH     = no                      switch     %-23b     
+#K SMAXITER   = 10                      number     %-23d     
+#K SLOCLIP    = 0.                      percent    %-23.7g   
+#K SHICLIP    = 0.                      percent    %-23.7g   
+#K SNREJECT   = 50                      number     %-23d     
+#K SLOREJECT  = 3.                      sigma      %-23.7g   
+#K SHIREJECT  = 3.                      sigma      %-23.7g   
+#K RGROW      = 0.                      scaleunit  %-23.7g   
+#
+#K WEIGHTING  = constant                model      %-23s     
+#K APERTURES  = 2.5                     scaleunit  %-23s     
+#K ZMAG       = 25.                     zeropoint  %-23.7g   
+#
+#N IMAGE               XINIT     YINIT     ID    COORDS                 LID    \
+#U imagename           pixels    pixels    ##    filename               ##     \
+#F %-23s               %-10.3f   %-10.3f   %-6d  %-23s                  %-6d    
+#
+#N XCENTER    YCENTER    XSHIFT  YSHIFT  XERR    YERR            CIER CERROR   \
+#U pixels     pixels     pixels  pixels  pixels  pixels          ##   cerrors  \
+#F %-14.3f    %-11.3f    %-8.3f  %-8.3f  %-8.3f  %-15.3f         %-5d %-9s      
+#
+#N MSKY           STDEV          SSKEW          NSKY   NSREJ     SIER SERROR   \
+#U counts         counts         counts         npix   npix      ##   serrors  \
+#F %-18.7g        %-15.7g        %-15.7g        %-7d   %-9d      %-5d %-9s      
+#
+#N ITIME          XAIRMASS       IFILTER                OTIME                  \
+#U timeunit       number         name                   timeunit               \
+#F %-18.7g        %-15.7g        %-23s                  %-23s                   
+#
+#N RAPERT   SUM           AREA       FLUX          MAG    MERR   PIER PERROR   \
+#U scale    counts        pixels     counts        mag    mag    ##   perrors  \
+#F %-12.2f  %-14.7g       %-11.7g    %-14.7g       %-7.3f %-6.3f %-5d %-9s      
+#
+2016071810EB1_005.fits 249.269   0.887     1     2016071810EB1_005.fits.1      \
+   249.269    0.887      0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.0123       13.15634       3.467092       317    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     0.            0.         0.            INDEF  INDEF 301  OffImage   
+2016071810EB1_005.fits 72.423    3.666     2     2016071810EB1_005.fits.2      \
+   72.423     3.666      0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.6122       14.50754       1.82671        379    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     14612.65      19.86843   9911.538      15.010 0.013 0    NoError    
+2016071810EB1_005.fits 417.716   4.429     3     2016071810EB1_005.fits.3      \
+   417.716    4.429      0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.6844       14.63635       5.478029       394    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5102.804      19.91318   469.3172      18.321 0.162 0    NoError    
+2016071810EB1_005.fits 225.822   12.017    4     2016071810EB1_005.fits.4      \
+   225.822    12.017     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.3969       14.5209        -5.02868       578    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5832.67       19.75656   1241.307      17.265 0.064 0    NoError    
+2016071810EB1_005.fits 357.429   18.260    5     2016071810EB1_005.fits.5      \
+   357.429    18.260     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.6505       14.6389        -6.820597      626    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     9418.707      19.93137   4781.664      15.801 0.021 0    NoError    
+2016071810EB1_005.fits 8.513     19.289    6     2016071810EB1_005.fits.6      \
+   8.513      19.289     0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.7154       14.0064        3.708201       503    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5586.538      19.91909   931.1405      17.577 0.082 0    NoError    
+2016071810EB1_005.fits 473.735   20.014    7     2016071810EB1_005.fits.7      \
+   473.735    20.014     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.657        14.96324       -2.278448      621    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5306.103      19.89156   678.1912      17.922 0.116 0    NoError    
+2016071810EB1_005.fits 510.044   25.786    8     2016071810EB1_005.fits.8      \
+   510.044    25.786     0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.2657       14.1805        -3.16448       362    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     0.            0.         0.            INDEF  INDEF 301  OffImage   
+2016071810EB1_005.fits 293.261   29.923    9     2016071810EB1_005.fits.9      \
+   293.261    29.923     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.41         14.38461       4.543523       623    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5138.633      19.88031   518.2516      18.214 0.144 0    NoError    
+2016071810EB1_005.fits 190.150   34.066    10    2016071810EB1_005.fits.10     \
+   190.150    34.066     0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.0455       14.91568       -5.809029      627    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     13324.02      19.75403   8720.433      15.149 0.014 0    NoError    
+2016071810EB1_005.fits 324.630   36.716    11    2016071810EB1_005.fits.11     \
+   324.630    36.716     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.523        14.47008       -3.343019      626    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5380.844      19.89888   753.8953      17.807 0.102 0    NoError    
+2016071810EB1_005.fits 467.197   48.009    12    2016071810EB1_005.fits.12     \
+   467.197    48.009     0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.4631       14.91926       -7.023491      623    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     8370.728      19.78016   3752.79       16.064 0.026 0    NoError    
+2016071810EB1_005.fits 188.823   49.571    13    2016071810EB1_005.fits.13     \
+   188.823    49.571     0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.0593       14.1631        6.207594       612    16       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5277.134      19.97987   600.6595      18.053 0.124 0    NoError    
+2016071810EB1_005.fits 500.414   48.670    14    2016071810EB1_005.fits.14     \
+   500.414    48.670     0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.7771       14.23625       -1.655801      592    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     30869.13      19.87074   26203.94      13.954 0.007 0    NoError    
+2016071810EB1_005.fits 77.204    57.603    15    2016071810EB1_005.fits.15     \
+   77.204     57.603     0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.4671       14.24924       -6.714614      619    10       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5190.655      19.95907   570.7872      18.109 0.130 0    NoError    
+2016071810EB1_005.fits 22.446    61.303    16    2016071810EB1_005.fits.16     \
+   22.446     61.303     0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.8159       14.85075       6.196324       624    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     25560.9       19.89946   20868.28      14.201 0.008 0    NoError    
+2016071810EB1_005.fits 335.259   66.943    17    2016071810EB1_005.fits.17     \
+   335.259    66.943     0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.2331       15.17903       5.539883       623    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     9394.35       19.87967   4757.755      15.806 0.022 0    NoError    
+2016071810EB1_005.fits 383.252   72.622    18    2016071810EB1_005.fits.18     \
+   383.252    72.622     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.4029       14.25525       1.508809       626    6        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     8450.644      19.92461   3820.105      16.045 0.025 0    NoError    
+2016071810EB1_005.fits 218.876   74.123    19    2016071810EB1_005.fits.19     \
+   218.876    74.123     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.6961       14.85052       -5.767414      627    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4636.519      19.7503    40.7014       20.976 1.795 0    NoError    
+2016071810EB1_005.fits 277.096   81.611    20    2016071810EB1_005.fits.20     \
+   277.096    81.611     0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.7689       14.41718       5.214512       627    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     10241.58      19.9973    5586.826      15.632 0.019 0    NoError    
+2016071810EB1_005.fits 295.762   88.880    21    2016071810EB1_005.fits.21     \
+   295.762    88.880     0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.449        15.19773       5.290853       625    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5395.496      19.874     795.6791      17.748 0.101 0    NoError    
+2016071810EB1_005.fits 353.485   89.223    22    2016071810EB1_005.fits.22     \
+   353.485    89.223     0.000   0.000   INDEF   INDEF          0    NoError   \
+   230.7133       14.69048       -4.240762      630    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5182.996      19.96292   577.2862      18.097 0.133 0    NoError    
+2016071810EB1_005.fits 380.685   93.502    23    2016071810EB1_005.fits.23     \
+   380.685    93.502     0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.7339       14.23908       -3.761789      616    12       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6209.339      19.89876   1598.122      16.991 0.051 0    NoError    
+2016071810EB1_005.fits 386.683   97.380    24    2016071810EB1_005.fits.24     \
+   386.683    97.380     0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.8568       15.61785       6.001421       612    16       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5250.863      19.87466   642.788       17.980 0.126 0    NoError    
+2016071810EB1_005.fits 417.094   100.104   25    2016071810EB1_005.fits.25     \
+   417.094    100.104    0.000   0.000   INDEF   INDEF          0    NoError   \
+   228.4929       14.00763       7.481178       627    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4602.131      19.76517   85.93189      20.165 0.807 0    NoError    
+2016071810EB1_005.fits 197.900   101.351   26    2016071810EB1_005.fits.26     \
+   197.900    101.351    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.5638       14.05875       -4.58696       625    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4922.797      19.97492   277.3529      18.892 0.257 0    NoError    
+2016071810EB1_005.fits 86.375    104.574   27    2016071810EB1_005.fits.27     \
+   86.375     104.574    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.7632       14.80829       -5.453917      627    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5955.164      19.83955   1297.567      17.217 0.063 0    NoError    
+2016071810EB1_005.fits 331.698   112.403   28    2016071810EB1_005.fits.28     \
+   331.698    112.403    0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.0436       14.03187       -5.000868      624    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7055.232      19.8935    2458.965      16.523 0.035 0    NoError    
+2016071810EB1_005.fits 149.296   113.513   29    2016071810EB1_005.fits.29     \
+   149.296    113.513    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.7752       14.01964       4.67901        625    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6677.799      19.91373   2022.464      16.735 0.041 0    NoError    
+2016071810EB1_005.fits 372.952   119.871   30    2016071810EB1_005.fits.30     \
+   372.952    119.871    0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.7508       16.13253       5.953649       628    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6031.638      19.76628   1450.787      17.096 0.061 0    NoError    
+2016071810EB1_005.fits 70.636    122.677   31    2016071810EB1_005.fits.31     \
+   70.636     122.677    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.2271       15.23134       6.726624       626    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     14520.38      19.86432   9827.893      15.019 0.013 0    NoError    
+2016071810EB1_005.fits 259.880   124.399   32    2016071810EB1_005.fits.32     \
+   259.880    124.399    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.6657       15.58859       9.29858        626    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5382.446      19.99396   710.5425      17.871 0.115 0    NoError    
+2016071810EB1_005.fits 289.076   127.127   33    2016071810EB1_005.fits.33     \
+   289.076    127.127    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.9847       14.52174       4.885494       621    7        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7118.759      19.76141   2475.128      16.516 0.036 0    NoError    
+2016071810EB1_005.fits 329.619   138.504   34    2016071810EB1_005.fits.34     \
+   329.619    138.504    0.000   0.000   INDEF   INDEF          0    NoError   \
+   238.1964       15.29388       6.616158       617    13       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5717.791      19.80356   1000.655      17.499 0.082 0    NoError    
+2016071810EB1_005.fits 162.013   139.210   35    2016071810EB1_005.fits.35     \
+   162.013    139.210    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.0823       14.61901       6.154255       622    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5248.876      19.79641   654.4785      17.960 0.117 0    NoError    
+2016071810EB1_005.fits 309.079   146.187   36    2016071810EB1_005.fits.36     \
+   309.079    146.187    0.000   0.000   INDEF   INDEF          0    NoError   \
+   246.1893       19.12969       13.65711       529    97       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     446954.3      19.78694   442082.9      10.886 0.002 0    NoError    
+2016071810EB1_005.fits 410.010   148.266   37    2016071810EB1_005.fits.37     \
+   410.010    148.266    0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.4149       14.5751        6.011851       623    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4710.459      19.89301   106.92        19.927 0.678 0    NoError    
+2016071810EB1_005.fits 41.463    149.727   38    2016071810EB1_005.fits.38     \
+   41.463     149.727    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.5678       15.3766        4.697386       626    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     9526.814      19.92918   4812.212      15.794 0.022 0    NoError    
+2016071810EB1_005.fits 12.085    152.695   39    2016071810EB1_005.fits.39     \
+   12.085     152.695    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.7522       14.28468       -6.093384      580    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     13637.14      19.91763   8941.514      15.121 0.013 0    NoError    
+2016071810EB1_005.fits 504.884   152.607   40    2016071810EB1_005.fits.40     \
+   504.884    152.607    0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.9299       13.56187       -5.807065      490    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5553.607      19.99339   916.5415      17.595 0.081 0    NoError    
+2016071810EB1_005.fits 226.005   161.777   41    2016071810EB1_005.fits.41     \
+   226.005    161.777    0.000   0.000   INDEF   INDEF          0    NoError   \
+   247.3972       19.80385       13.20708       537    87       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     385497.1      19.80762   380596.8      11.049 0.002 0    NoError    
+2016071810EB1_005.fits 238.949   165.715   42    2016071810EB1_005.fits.42     \
+   238.949    165.715    0.000   0.000   INDEF   INDEF          0    NoError   \
+   239.0916       18.84855       11.57334       528    98       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5759.735      19.90482   1000.659      17.499 0.099 0    NoError    
+2016071810EB1_005.fits 376.697   167.338   43    2016071810EB1_005.fits.43     \
+   376.697    167.338    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.3808       14.65394       6.03847        613    15       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5994.164      19.87167   1376.371      17.153 0.059 0    NoError    
+2016071810EB1_005.fits 39.054    169.488   44    2016071810EB1_005.fits.44     \
+   39.054     169.488    0.000   0.000   INDEF   INDEF          0    NoError   \
+   237.0393       14.71419       -6.22976       622    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6728.605      20.0029    1987.133      16.754 0.043 0    NoError    
+2016071810EB1_005.fits 185.092   170.422   45    2016071810EB1_005.fits.45     \
+   185.092    170.422    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.1284       14.85592       7.207788       627    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6007.495      20.00683   1283.316      17.229 0.064 0    NoError    
+2016071810EB1_005.fits 381.042   170.223   46    2016071810EB1_005.fits.46     \
+   381.042    170.223    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.4128       14.44814       6.200521       614    12       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7666.124      19.82702   3058.07       16.286 0.030 0    NoError    
+2016071810EB1_005.fits 405.055   187.365   47    2016071810EB1_005.fits.47     \
+   405.055    187.365    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.9994       15.62943       8.70091        618    9        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5913.949      19.96285   1262.617      17.247 0.068 0    NoError    
+2016071810EB1_005.fits 263.515   188.324   48    2016071810EB1_005.fits.48     \
+   263.515    188.324    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.3816       14.50088       6.438376       627    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5789.601      19.88153   1169.5        17.330 0.068 0    NoError    
+2016071810EB1_005.fits 408.323   194.527   49    2016071810EB1_005.fits.49     \
+   408.323    194.527    0.000   0.000   INDEF   INDEF          0    NoError   \
+   231.0989       14.53254       6.554352       611    19       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5379.707      19.88268   784.8411      17.763 0.098 0    NoError    
+2016071810EB1_005.fits 362.801   200.071   50    2016071810EB1_005.fits.50     \
+   362.801    200.071    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.5827       14.46357       2.316013       624    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6672.325      19.79456   2068.454      16.711 0.041 0    NoError    
+2016071810EB1_005.fits 65.537    202.079   51    2016071810EB1_005.fits.51     \
+   65.537     202.079    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.4407       15.17674       7.664839       617    10       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5948.015      20.01596   1235.444      17.270 0.067 0    NoError    
+2016071810EB1_005.fits 33.311    204.237   52    2016071810EB1_005.fits.52     \
+   33.311     204.237    0.000   0.000   INDEF   INDEF          0    NoError   \
+   238.4062       14.00517       4.512316       628    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     31415.84      19.90559   26670.22      13.935 0.007 0    NoError    
+2016071810EB1_005.fits 61.996    212.894   53    2016071810EB1_005.fits.53     \
+   61.996     212.894    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.5087       15.00057       6.214275       602    26       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5694.212      19.77902   1016.303      17.482 0.079 0    NoError    
+2016071810EB1_005.fits 56.130    216.432   54    2016071810EB1_005.fits.54     \
+   56.130     216.432    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.5758       14.85359       3.867584       618    10       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5904.682      19.99858   1173.502      17.326 0.069 0    NoError    
+2016071810EB1_005.fits 400.953   220.049   55    2016071810EB1_005.fits.55     \
+   400.953    220.049    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.4863       15.03069       -1.693469      631    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5175.139      19.79009   574.2133      18.102 0.135 0    NoError    
+2016071810EB1_005.fits 438.711   223.385   56    2016071810EB1_005.fits.56     \
+   438.711    223.385    0.000   0.000   INDEF   INDEF          0    NoError   \
+   230.3445       14.51989       7.448313       627    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     10861.69      19.89959   6277.928      15.505 0.017 0    NoError    
+2016071810EB1_005.fits 149.119   233.226   57    2016071810EB1_005.fits.57     \
+   149.119    233.226    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.279        14.42124       5.464155       623    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5392.738      19.85886   779.9425      17.770 0.098 0    NoError    
+2016071810EB1_005.fits 498.756   235.882   58    2016071810EB1_005.fits.58     \
+   498.756    235.882    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.5067       14.19512       -5.211177      617    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     14253.71      19.87949   9631.599      15.041 0.013 0    NoError    
+2016071810EB1_005.fits 34.961    237.574   59    2016071810EB1_005.fits.59     \
+   34.961     237.574    0.000   0.000   INDEF   INDEF          0    NoError   \
+   237.4412       14.54532       7.743863       623    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6243.801      19.9815    1499.37       17.060 0.055 0    NoError    
+2016071810EB1_005.fits 103.201   244.945   60    2016071810EB1_005.fits.60     \
+   103.201    244.945    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.4211       15.50553       8.947125       616    12       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     18700.88      19.79137   14061.37      14.630 0.010 0    NoError    
+2016071810EB1_005.fits 102.997   250.064   61    2016071810EB1_005.fits.61     \
+   102.997    250.064    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.8669       15.41099       8.876158       602    28       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6189.083      19.79092   1580.435      17.003 0.054 0    NoError    
+2016071810EB1_005.fits 120.970   258.583   62    2016071810EB1_005.fits.62     \
+   120.970    258.583    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.2332       15.19803       5.513661       598    29       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5684.749      19.97256   986.5394      17.515 0.083 0    NoError    
+2016071810EB1_005.fits 136.283   258.511   63    2016071810EB1_005.fits.63     \
+   136.283    258.511    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.6089       15.47023       7.315971       624    6        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     54350.72      19.92363   49636.61      13.260 0.005 0    NoError    
+2016071810EB1_005.fits 228.583   258.096   64    2016071810EB1_005.fits.64     \
+   228.583    258.096    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.1367       14.51614       -5.702031      624    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     8014.613      20.00482   3370.76       16.181 0.028 0    NoError    
+2016071810EB1_005.fits 383.876   264.687   65    2016071810EB1_005.fits.65     \
+   383.876    264.687    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.3555       15.47394       -7.365174      608    22       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     10472.22      19.95326   5816.013      15.588 0.019 0    NoError    
+2016071810EB1_005.fits 255.655   270.461   66    2016071810EB1_005.fits.66     \
+   255.655    270.461    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.5941       14.5371        6.12212        610    20       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5416.984      19.86105   777.5593      17.773 0.099 0    NoError    
+2016071810EB1_005.fits 255.589   271.310   67    2016071810EB1_005.fits.67     \
+   255.589    271.310    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.6216       14.52802       6.851778       609    20       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5419.349      19.88832   773.0076      17.780 0.100 0    NoError    
+2016071810EB1_005.fits 261.952   274.009   68    2016071810EB1_005.fits.68     \
+   261.952    274.009    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.4572       14.66991       6.349159       620    10       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6611.94       19.79378   1971.146      16.763 0.043 0    NoError    
+2016071810EB1_005.fits 286.790   278.550   69    2016071810EB1_005.fits.69     \
+   286.790    278.550    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.8864       14.40078       4.889262       622    7        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     45278.03      19.96705   40548.11      13.480 0.005 0    NoError    
+2016071810EB1_005.fits 181.978   281.236   70    2016071810EB1_005.fits.70     \
+   181.978    281.236    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.3936       14.13679       -3.713723      624    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5846.583      19.84008   1196.196      17.305 0.065 0    NoError    
+2016071810EB1_005.fits 156.122   299.346   71    2016071810EB1_005.fits.71     \
+   156.122    299.346    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.0676       15.01099       6.569677       616    13       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6950.535      19.97471   2255.13       16.617 0.039 0    NoError    
+2016071810EB1_005.fits 301.663   307.110   72    2016071810EB1_005.fits.72     \
+   301.663    307.110    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.7631       14.39442       -1.294109      627    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     15535.92      19.97123   10847.42      14.912 0.012 0    NoError    
+2016071810EB1_005.fits 220.857   307.919   73    2016071810EB1_005.fits.73     \
+   220.857    307.919    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.5805       14.74659       -7.340313      623    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6183.618      19.75295   1589.466      16.997 0.052 0    NoError    
+2016071810EB1_005.fits 166.583   308.645   74    2016071810EB1_005.fits.74     \
+   166.583    308.645    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.1729       14.86235       -5.578928      613    16       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6050.964      19.84671   1383.555      17.148 0.060 0    NoError    
+2016071810EB1_005.fits 351.187   320.651   75    2016071810EB1_005.fits.75     \
+   351.187    320.651    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.7925       14.2278        -2.29188       628    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7710.088      19.95008   3045.908      16.291 0.030 0    NoError    
+2016071810EB1_005.fits 221.064   325.164   76    2016071810EB1_005.fits.76     \
+   221.064    325.164    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.8265       14.90983       3.955393       626    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7597.739      19.75984   2977.366      16.315 0.031 0    NoError    
+2016071810EB1_005.fits 314.108   325.242   77    2016071810EB1_005.fits.77     \
+   314.108    325.242    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.3391       14.10818       4.092705       620    7        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7471.403      19.86953   2795.326      16.384 0.032 0    NoError    
+2016071810EB1_005.fits 413.924   326.566   78    2016071810EB1_005.fits.78     \
+   413.924    326.566    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.7124       15.3075        8.165896       624    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     48429.56      20.00682   43713.7       13.398 0.005 0    NoError    
+2016071810EB1_005.fits 446.999   331.054   79    2016071810EB1_005.fits.79     \
+   446.999    331.054    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.8343       15.25749       8.290191       628    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     35143.82      19.79289   30495.77      13.789 0.006 0    NoError    
+2016071810EB1_005.fits 277.717   360.531   80    2016071810EB1_005.fits.80     \
+   277.717    360.531    0.000   0.000   INDEF   INDEF          0    NoError   \
+   237.9171       15.08754       5.732177       627    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     8881.347      19.92249   4141.446      15.957 0.024 0    NoError    
+2016071810EB1_005.fits 200.510   363.034   81    2016071810EB1_005.fits.81     \
+   200.510    363.034    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.0241       14.75476       3.945272       619    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     13363.08      19.9817    8646.914      15.158 0.014 0    NoError    
+2016071810EB1_005.fits 354.278   367.886   82    2016071810EB1_005.fits.82     \
+   354.278    367.886    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.0589       14.45453       -2.441014      624    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4657.205      19.91389   -23.73254     INDEF  INDEF 0    NoError    
+2016071810EB1_005.fits 49.246    377.790   83    2016071810EB1_005.fits.83     \
+   49.246     377.790    0.000   0.000   INDEF   INDEF          0    NoError   \
+   238.9116       14.81867       5.38804        627    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     7194.66       19.88691   2443.446      16.530 0.036 0    NoError    
+2016071810EB1_005.fits 155.067   388.885   84    2016071810EB1_005.fits.84     \
+   155.067    388.885    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.4958       14.24467       -6.328445      627    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6423.279      19.76836   1748.147      16.894 0.047 0    NoError    
+2016071810EB1_005.fits 291.140   390.072   85    2016071810EB1_005.fits.85     \
+   291.140    390.072    0.000   0.000   INDEF   INDEF          0    NoError   \
+   247.836        21.13925       14.34284       472    156      0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6066.888      19.75662   1170.485      17.329 0.094 0    NoError    
+2016071810EB1_005.fits 10.409    392.811   86    2016071810EB1_005.fits.86     \
+   10.409     392.811    0.000   0.000   INDEF   INDEF          0    NoError   \
+   241.0274       15.12759       7.885825       546    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     27463.47      19.96982   22650.2       14.112 0.008 0    NoError    
+2016071810EB1_005.fits 120.948   398.944   87    2016071810EB1_005.fits.87     \
+   120.948    398.944    0.000   0.000   INDEF   INDEF          0    NoError   \
+   237.4344       14.6502        -5.836973      630    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6028.933      19.78805   1330.571      17.190 0.061 0    NoError    
+2016071810EB1_005.fits 196.535   403.382   88    2016071810EB1_005.fits.88     \
+   196.535    403.382    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.5589       14.57838       6.024424       626    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5452.983      19.80763   826.7346      17.707 0.094 0    NoError    
+2016071810EB1_005.fits 280.203   403.530   89    2016071810EB1_005.fits.89     \
+   280.203    403.530    0.000   0.000   INDEF   INDEF          0    NoError   \
+   294.8604       40.07134       33.14828       441    187      0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     1134084.      19.97295   1128195.      9.869  0.001 0    NoError    
+2016071810EB1_005.fits 280.201   404.332   90    2016071810EB1_005.fits.90     \
+   280.201    404.332    0.000   0.000   INDEF   INDEF          0    NoError   \
+   294.4358       38.49992       31.60346       438    192      0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     1135501.      19.93574   1129631.      9.868  0.001 0    NoError    
+2016071810EB1_005.fits 396.464   405.325   91    2016071810EB1_005.fits.91     \
+   396.464    405.325    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.9246       14.14917       4.832828       629    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6766.343      19.88064   2115.773      16.686 0.040 0    NoError    
+2016071810EB1_005.fits 259.607   427.867   92    2016071810EB1_005.fits.92     \
+   259.607    427.867    0.000   0.000   INDEF   INDEF          0    NoError   \
+   241.101        16.06691       5.10649        627    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6842.143      19.98819   2022.97       16.735 0.045 0    NoError    
+2016071810EB1_005.fits 405.457   431.001   93    2016071810EB1_005.fits.93     \
+   405.457    431.001    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.5836       14.65719       8.286505       622    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5536.597      19.98063   869.448       17.652 0.090 0    NoError    
+2016071810EB1_005.fits 244.238   431.905   94    2016071810EB1_005.fits.94     \
+   244.238    431.905    0.000   0.000   INDEF   INDEF          0    NoError   \
+   237.7632       16.20839       5.816309       623    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5279.301      19.85764   557.8864      18.134 0.149 0    NoError    
+2016071810EB1_005.fits 340.306   436.930   95    2016071810EB1_005.fits.95     \
+   340.306    436.930    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.2021       14.96823       4.628488       622    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     8182.742      19.92371   3496.644      16.141 0.027 0    NoError    
+2016071810EB1_005.fits 366.026   439.607   96    2016071810EB1_005.fits.96     \
+   366.026    439.607    0.000   0.000   INDEF   INDEF          0    NoError   \
+   234.3602       14.30944       2.919827       627    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6852.954      19.96518   2173.911      16.657 0.039 0    NoError    
+2016071810EB1_005.fits 8.603     454.232   97    2016071810EB1_005.fits.97     \
+   8.603      454.232    0.000   0.000   INDEF   INDEF          0    NoError   \
+   239.5339       13.53216       -5.981539      502    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6033.183      19.94313   1256.127      17.252 0.061 0    NoError    
+2016071810EB1_005.fits 388.748   457.395   98    2016071810EB1_005.fits.98     \
+   388.748    457.395    0.000   0.000   INDEF   INDEF          0    NoError   \
+   232.7325       14.23102       6.082127       628    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4758.717      19.92963   120.4461      19.798 0.589 0    NoError    
+2016071810EB1_005.fits 329.354   458.204   99    2016071810EB1_005.fits.99     \
+   329.354    458.204    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.142        14.52616       3.148084       628    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5473.072      19.94409   823.2667      17.711 0.094 0    NoError    
+2016071810EB1_005.fits 425.884   466.758   100   2016071810EB1_005.fits.100    \
+   425.884    466.758    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.0396       14.22683       -2.055738      626    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6094.464      19.87568   1422.892      17.117 0.056 0    NoError    
+2016071810EB1_005.fits 459.140   469.099   101   2016071810EB1_005.fits.101    \
+   459.140    469.099    0.000   0.000   INDEF   INDEF          0    NoError   \
+   236.6929       14.12393       -1.026839      623    3        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     26203.82      19.75046   21529.03      14.167 0.008 0    NoError    
+2016071810EB1_005.fits 93.943    474.633   102   2016071810EB1_005.fits.102    \
+   93.943     474.633    0.000   0.000   INDEF   INDEF          0    NoError   \
+   244.8916       17.15615       8.503028       579    48       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     8937.566      19.9635    4048.673      15.982 0.026 0    NoError    
+2016071810EB1_005.fits 81.271    477.030   103   2016071810EB1_005.fits.103    \
+   81.271     477.030    0.000   0.000   INDEF   INDEF          0    NoError   \
+   242.3376       16.7341        8.362783       568    58       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     12644.49      19.8958    7822.986      15.267 0.016 0    NoError    
+2016071810EB1_005.fits 89.419    479.194   104   2016071810EB1_005.fits.104    \
+   89.419     479.194    0.000   0.000   INDEF   INDEF          0    NoError   \
+   245.6057       17.30421       8.204808       581    46       0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     9624.953      19.96974   4720.27       15.815 0.024 0    NoError    
+2016071810EB1_005.fits 284.645   481.829   105   2016071810EB1_005.fits.105    \
+   284.645    481.829    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.4754       14.95565       7.40253        629    1        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     4677.495      19.95946   -22.4666      INDEF  INDEF 0    NoError    
+2016071810EB1_005.fits 430.533   486.460   106   2016071810EB1_005.fits.106    \
+   430.533    486.460    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.0561       15.08257       -1.142563      629    5        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5168.983      19.78961   517.3149      18.216 0.150 0    NoError    
+2016071810EB1_005.fits 294.352   497.191   107   2016071810EB1_005.fits.107    \
+   294.352    497.191    0.000   0.000   INDEF   INDEF          0    NoError   \
+   235.4065       14.72099       6.712229       626    4        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5299.906      19.94955   603.652       18.048 0.127 0    NoError    
+2016071810EB1_005.fits 434.197   500.980   108   2016071810EB1_005.fits.108    \
+   434.197    500.980    0.000   0.000   INDEF   INDEF          0    NoError   \
+   233.23         14.275         2.313406       576    6        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     5942.545      19.78029   1329.187      17.191 0.060 0    NoError    
+2016071810EB1_005.fits 56.841    509.256   109   2016071810EB1_005.fits.109    \
+   56.841     509.256    0.000   0.000   INDEF   INDEF          0    NoError   \
+   246.575        14.59093       5.314154       377    2        0    NoError   \
+   1.             INDEF          INDEF                  INDEF                  \
+   2.50     6189.638      19.90657   1281.176      17.231 0.064 0    NoError    

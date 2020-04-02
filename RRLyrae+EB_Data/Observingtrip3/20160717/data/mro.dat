@@ -1,0 +1,9 @@
+# MRO instrument translation file
+# Set readnoise and gain values in flatcombine 
+# (since those keywords aren't in the header)
+subset		filter
+
+dark		dark
+bias		zero
+object		object
+flat		flat

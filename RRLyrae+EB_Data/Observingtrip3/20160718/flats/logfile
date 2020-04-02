@@ -1,0 +1,90 @@
+
+Aug 15 22:25: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+  20160718FlatB_001.fits  44756.  0.885
+  20160718FlatB_002.fits  42949.  0.922
+  20160718FlatB_003.fits  41802.  0.948
+  20160718FlatB_004.fits  40636.  0.975
+  20160718FlatB_005.fits  39696.  0.998
+  20160718FlatB_006.fits  38222.  1.036
+  20160718FlatB_007.fits  37199.  1.065
+  20160718FlatB_008.fits  36178.  1.095
+  20160718FlatB_009.fits  35077.  1.129
+
+  Output image = flatB, ncombine = 9
+
+Aug 15 22:25: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160718FlatV_001.fits    1.5  32055.  1.158
+  20160718FlatV_002.fits    2.0  40374.  0.919
+  20160718FlatV_003.fits    2.0  39111.  0.949
+  20160718FlatV_004.fits    2.0  37928.  0.978
+  20160718FlatV_005.fits    2.0  36201.  1.025
+  20160718FlatV_006.fits    2.2  37641.  0.986
+  20160718FlatV_007.fits    2.2  36502.  1.017
+  20160718FlatV_008.fits    2.4  37744.  0.983
+  20160718FlatV_009.fits    2.4  36435.  1.019
+
+  Output image = flatV, ncombine = 9
+
+Aug 15 22:25: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160718Flatg_001.fits    2.0  34530.  1.074
+  20160718Flatg_002.fits    2.4  39115.  0.949
+  20160718Flatg_003.fits    2.4  37412.  0.992
+  20160718Flatg_004.fits    2.4  36105.  1.028
+  20160718Flatg_005.fits    2.6  37099.  1.000
+  20160718Flatg_006.fits    2.8  38047.  0.975
+  20160718Flatg_007.fits    3.0  38830.  0.956
+  20160718Flatg_008.fits    3.0  37058.  1.001
+  20160718Flatg_009.fits    3.0  35725.  1.039
+
+  Output image = flatg, ncombine = 9
+
+Aug 15 22:25: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160718Flati_001.fits    7.0  36635.  1.050
+  20160718Flati_002.fits    8.0  39445.  0.976
+  20160718Flati_003.fits    9.0  41430.  0.929
+  20160718Flati_004.fits    9.5  40351.  0.954
+  20160718Flati_005.fits   10.0  39110.  0.984
+  20160718Flati_006.fits   10.5  38408.  1.002
+  20160718Flati_007.fits   11.0  37539.  1.025
+  20160718Flati_008.fits   11.5  36358.  1.059
+  20160718Flati_009.fits   13.0  37086.  1.038
+
+  Output image = flati, ncombine = 9
+
+Aug 15 22:25: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+  20160718Flatr_001.fits  47490.  0.855
+  20160718Flatr_002.fits  45215.  0.898
+  20160718Flatr_003.fits  43644.  0.930
+  20160718Flatr_004.fits  42050.  0.965
+  20160718Flatr_005.fits  40568.  1.001
+  20160718Flatr_006.fits  38907.  1.043
+  20160718Flatr_007.fits  37347.  1.087
+  20160718Flatr_008.fits  35867.  1.132
+  20160718Flatr_009.fits  34251.  1.185
+
+  Output image = flatr, ncombine = 9
