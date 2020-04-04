@@ -1,0 +1,23 @@
+
+Aug 13 16:59: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images 
+      bias_2x2_001.fits
+      bias_2x2_002.fits
+      bias_2x2_003.fits
+      bias_2x2_004.fits
+      bias_2x2_005.fits
+      bias_2x2_006.fits
+      bias_2x2_007.fits
+      bias_2x2_008.fits
+      bias_2x2_009.fits
+      bias_2x2_010.fits
+      bias_2x2_011.fits
+      bias_2x2_012.fits
+      bias_2x2_013.fits
+      bias_2x2_014.fits
+      bias_2x2_015.fits
+
+  Output image = zero, ncombine = 15
