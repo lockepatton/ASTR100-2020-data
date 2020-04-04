@@ -1,0 +1,18 @@
+
+Aug 15 22:41: IMCOMBINE
+  combine = average, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Exp    Mode  Scale
+  20160729flatr_001.fits   30.0  39116.  1.164
+  20160729flatr_002.fits   30.0  46091.  0.988
+  20160729flatr_003.fits   30.0  53353.  0.853
+  20160729flatr_004.fits   25.0  51728.  0.880
+  20160729flatr_005.fits   20.0  46953.  0.969
+  20160729flatr_006.fits   15.0  39702.  1.146
+  20160729flatr_007.fits   15.0  43742.  1.041
+  20160729flatr_008.fits   15.0  50708.  0.898
+  20160729flatr_009.fits   10.0  38248.  1.190
+
+  Output image = flatr, ncombine = 9

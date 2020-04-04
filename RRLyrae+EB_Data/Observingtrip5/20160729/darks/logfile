@@ -1,0 +1,33 @@
+
+Aug 15 18:26: IMCOMBINE
+  combine = average, scale = exposure, zero = none, weight = none
+  reject = minmax, nlow = 0, nhigh = 1
+  blank = 0.
+                Images     Exp  Scale
+  20160729dark10_001.fits   10.0  2.000
+  20160729dark10_002.fits   10.0  2.000
+  20160729dark10_003.fits   10.0  2.000
+  20160729dark10_004.fits   10.0  2.000
+  20160729dark10_005.fits   10.0  2.000
+  20160729dark15_001.fits   15.0  1.333
+  20160729dark15_002.fits   15.0  1.333
+  20160729dark15_003.fits   15.0  1.333
+  20160729dark15_004.fits   15.0  1.333
+  20160729dark15_005.fits   15.0  1.333
+  20160729dark20_001.fits   20.0  1.000
+  20160729dark20_002.fits   20.0  1.000
+  20160729dark20_003.fits   20.0  1.000
+  20160729dark20_004.fits   20.0  1.000
+  20160729dark20_005.fits   20.0  1.000
+  20160729dark25_001.fits   25.0  0.800
+  20160729dark25_002.fits   25.0  0.800
+  20160729dark25_003.fits   25.0  0.800
+  20160729dark25_004.fits   25.0  0.800
+  20160729dark25_005.fits   25.0  0.800
+  20160729dark30_001.fits   30.0  0.667
+  20160729dark30_002.fits   30.0  0.667
+  20160729dark30_003.fits   30.0  0.667
+  20160729dark30_004.fits   30.0  0.667
+  20160729dark30_005.fits   30.0  0.667
+
+  Output image = dark, ncombine = 25
